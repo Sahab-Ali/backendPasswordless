@@ -10,8 +10,8 @@ const {
 const { v4: uuidv4 } = require("uuid");
 
 const rpName = "SecurePass";
-const rpID = "localhost"; // change to your deployed domain
-const origin = "http://localhost:5173"; // change to frontend deployed URL
+const rpID = "frontend-passwordless-u74i.vercel.app"; // your Vercel domain
+const origin = "https://frontend-passwordless-u74i.vercel.app"; // must be https
 
 // ================= REGISTER OPTIONS =================
 
